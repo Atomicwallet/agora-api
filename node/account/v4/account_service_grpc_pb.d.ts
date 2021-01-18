@@ -4,7 +4,7 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import * as grpc from "grpc";
+import grpc from "@grpc/grpc-js";
 import * as account_v4_account_service_pb from "../../account/v4/account_service_pb";
 import * as validate_validate_pb from "../../validate/validate_pb";
 import * as common_v4_model_pb from "../../common/v4/model_pb";

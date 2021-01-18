@@ -4,7 +4,7 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import * as grpc from "grpc";
+import * as grpc from "@grpc/grpc-js";
 import * as airdrop_v4_airdrop_service_pb from "../../airdrop/v4/airdrop_service_pb";
 import * as validate_validate_pb from "../../validate/validate_pb";
 import * as common_v4_model_pb from "../../common/v4/model_pb";

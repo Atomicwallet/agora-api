@@ -1,7 +1,7 @@
 // GENERATED CODE -- DO NOT EDIT!
 
 'use strict';
-var grpc = require('grpc');
+var grpc = require('@grpc/grpc-js');
 var metrics_v3_ingestion_service_pb = require('../../metrics/v3/ingestion_service_pb.js');
 
 function serialize_kin_agora_metrics_v3_SubmitRequest(arg) {

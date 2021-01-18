@@ -4,7 +4,7 @@
 /* tslint:disable */
 /* eslint-disable */
 
-import * as grpc from "grpc";
+import * as grpc from "@grpc/grpc-js";
 import * as metrics_v3_ingestion_service_pb from "../../metrics/v3/ingestion_service_pb";
 
 interface IIngestionService extends grpc.ServiceDefinition<grpc.UntypedServiceImplementation> {
